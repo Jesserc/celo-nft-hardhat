@@ -6,15 +6,19 @@ To get started with this repo, you will need to have Node.js and Hardhat install
 
 Next, you will need to set up a .env file in the root of the project with the following variables:
 
-- `KEY`: Your API key for Infura
+- `KEY`: Your development private key
+
 Once you have set up your .env file, you can use Hardhat to compile and deploy the contracts in this repository by running the following commands:
 
 ```shell
 npx hardhat compile
 npx hardhat deploy
 ```
-You can also run tests for the contracts using npx hardhat test.
+You can also run tests for the contracts using:
 
+```shell
+npx hardhat test.
+```
 Thank you for visiting CeloNFTProject. I hope you find this repository helpful or interesting as you learn about Celo NFTs.
 
 
